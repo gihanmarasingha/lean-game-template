@@ -1,0 +1,22 @@
+name = "Lean Game Template"
+version = "0.1"
+extra_files = "extras"
+intro = "src/game/intro.lean"
+
+[[worlds]]
+name = "First World"
+id = 1
+levels = [
+	"src/propositional_logic/and_elimination.lean",
+	"src/propositional_logic/and_introduction.lean",
+	"src/propositional_logic/and_swap.lean",
+]
+
+[[worlds]]
+name = "Second World"
+id = 2
+parents = [1]
+levels = [
+	"src/propositional_logic/imp_elim.lean",
+	"src/propositional_logic/imp_intro.lean",
+]

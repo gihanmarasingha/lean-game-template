@@ -1,0 +1,9 @@
+*.olean
+/_target
+/leanpkg.path
+/scratch/*
+/html/*
+locale/content.pot
+src/test*.lean
+*~
+
